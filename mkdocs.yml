@@ -1,6 +1,23 @@
-site_name: Raphael Fanti
-site_url: https://example.com/
+site_name: Raphael Fanti - Portfolio
+site_url: https://raphafanti.github.io/portfolio/
+
 nav:
-  - Home: index.md
-  - About: about.md
-theme: readthedocs
+  - Featured projects: index.md
+  - All projects: projects.md
+  - About Raphael: about.md
+
+theme:
+    name: material
+    favicon: img/favicon.png
+    logo: img/favicon.png
+   
+plugins:
+    - tags:
+        tags_file: projects.md
+    - glightbox
+    
+        
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    
