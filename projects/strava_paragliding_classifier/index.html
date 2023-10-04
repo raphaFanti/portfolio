@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://raphafanti.github.io/portfolio/projects/proj1/">
+        <link rel="canonical" href="https://raphafanti.github.io/portfolio/projects/strava_paragliding_classifier/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Classifying Strava activities - Raphael Fanti - Portfolio</title>
+        <title>Classifying paragliding activities in Strava - Raphael Fanti - Portfolio</title>
       
     
     
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Classifying Strava activities
+              Classifying paragliding activities in Strava
             
           </span>
         </div>
@@ -305,17 +305,28 @@ Strava doesn't have a Paragliding mode, therefore these activities get lost when
 <p>An <strong>algorithm to automatically identify Paragliding or Hike and Fly activities</strong> in Strava</p>
 <h2 id="a-problem-beyond-human-capacity">A problem beyond human capacity</h2>
 <p>Strava makes available some general activity statistics such as time elapsed, average speed, max speed, max height, min height. Without additional info, it is clearly <strong>impossible for a human to tag a Hike and Fly activity</strong>: the speeds are similar to those in cycling, distances are within normal ranges for other activities, elevations as well.</p>
-<p><a class="glightbox" href="../img/paragliding_tagger.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Data exploration" src="../img/paragliding_tagger.jpg" width="700" /></a></p>
-<p>From the above picture we can see the orange points - paragliding - mixed with those of many activities: there is simply simply <strong>not enough differentiation in the 8 summary statistics</strong> that Strava provides.</p>
+<figure>
+<p><a class="glightbox" href="../img/paragliding_tagger.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Data exploration" src="../img/paragliding_tagger.jpg" width="100%" /></a>
+  </p>
+<figcaption>A human would not be able to differentiate paragliding (orange) data points</figcaption>
+</figure>
+<p>From the above picture we can see the orange points - paragliding - mixed with those of many activities: there is simply simply <strong>not enough differentiation in the 8 summary statistics</strong> that Strava provides, namely:</p>
+<ul>
+<li>Distance</li>
+<li>Moving and total times</li>
+<li>Total elevation gain, max and min altitudes</li>
+<li>Average and maximum speed</li>
+</ul>
 <h2 id="neural-network-in-action">Neural network in action</h2>
 <p>The very low amount of data (only 12 flights amongst 500+ activities) was discoragging. We decided to give it a try however.</p>
 <p>We tested the MLP neural network classifier with 40% of split for testing. We didn't have to go any further, since the first iteractions provided perfect results: <strong>the only 3 Paragliding activities amongst 144 were correctly tagged</strong>.</p>
-<p><a class="glightbox" href="../img/paragliding-results.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left" alt="Classifier results" src="../img/paragliding-results.png" width="700" /></a></p>
+<p><a class="glightbox" href="../img/paragliding-results.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left" alt="Classifier results" src="../img/paragliding-results.png" width="100%" /></a></p>
+<p>We didn't go further as the first try yielded great results. When more data will be available, we shall explore performance of other models and pipelines.</p>
 <h2 id="tech-stack">Tech stack</h2>
 <ul>
-<li>Strava API access via O-auth</li>
-<li>Seaborn for data exploration</li>
-<li>MLP classifier in Scikit-Learn for modelling</li>
+<li><strong>Strava API</strong> with access via O-auth</li>
+<li><strong>Seaborn</strong> for data exploration</li>
+<li>Basic <strong>MLP classifier</strong> in Scikit-Learn for modelling</li>
 </ul>
 <p>Here the repository of the code on <a href="https://github.com/raphaFanti/glidelytics_activity_tagger">github</a>.</p>
 <h2 id="next-steps">Next steps</h2>
