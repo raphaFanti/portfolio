@@ -10,11 +10,14 @@ theme:
     name: material
     favicon: img/favicon.png
     logo: img/favicon.png
+    features:
+        - search.suggest
    
 plugins:
     - tags:
         tags_file: projects.md
     - glightbox
+    - search
     
         
 markdown_extensions:

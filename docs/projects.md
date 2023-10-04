@@ -1,13 +1,12 @@
 # Projects repository
 [TAGS]
 
-## Projects to be included
+## To Do
 - Ski scanner
 - CNC machine
-- IM'safe (IoT) -> feat
-- iPlant
 - Climbing business market analysis -> feat
 - AI for headlamps -> feat
 - Boot sensing
 - Eigenfaces
 - FieldReady - printable connector
+- Suunto Pomocup connection

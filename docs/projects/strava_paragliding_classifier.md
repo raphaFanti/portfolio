@@ -44,7 +44,7 @@ We didn't go further as the first try yielded great results. When more data will
 * **Seaborn** for data exploration
 * Basic **MLP classifier** in Scikit-Learn for modelling
 
-Here the repository of the code on [github](https://github.com/raphaFanti/glidelytics_activity_tagger).
+Here the repository on [github](https://github.com/raphaFanti/glidelytics_activity_tagger).
 
 ## Next steps
 To broaden the validity of these results one would have to use more data to train and assess the model. For this reason we shall **deploy the model as a service** so that people can tag their activities and provide feedback on accuracy.
