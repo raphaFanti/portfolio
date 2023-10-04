@@ -4,14 +4,10 @@
 ## Projects to be included
 - Ski scanner
 - CNC machine
-- Cat feeder
-- IM'safe (IoT)
-- Belay Cam
+- IM'safe (IoT) -> feat
 - iPlant
-- Glidelytics
-	- Identifying paragliding activities in Suunto
-- Climbing business market analysis
-- AI for headlamps
+- Climbing business market analysis -> feat
+- AI for headlamps -> feat
 - Boot sensing
 - Eigenfaces
 - FieldReady - printable connector
