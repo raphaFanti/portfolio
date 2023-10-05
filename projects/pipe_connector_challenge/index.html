@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://raphafanti.github.io/portfolio/projects/automatic_cat_feeder/">
+        <link rel="canonical" href="https://raphafanti.github.io/portfolio/projects/pipe_connector_challenge/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Automatic cat feeder - Raphael Fanti - Portfolio</title>
+        <title>3D printable pipe connector for field usage - Raphael Fanti - Portfolio</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#for-cat-owners-who-travel-often" class="md-skip">
+        <a href="#pipe-connectors-for-humanitarian-responses" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Automatic cat feeder
+              3D printable pipe connector for field usage
             
           </span>
         </div>
@@ -295,49 +295,41 @@
     
     
     
-      <a href="../#electronics-and-embedded-software" class="md-tag">Electronics and embedded software</a>
+      <a href="../#design-and-3d-printing" class="md-tag">Design and 3D printing</a>
     
   
     
     
     
-      <a href="../#design-and-3d-printing" class="md-tag">Design and 3D printing</a>
+      <a href="../#tech-for-humanitarian" class="md-tag">Tech for Humanitarian</a>
     
   
 </nav>
 
 
 
-<h1 id="for-cat-owners-who-travel-often">For cat owners who travel often</h1>
-<p><a class="glightbox" href="../img/catFeeder-electronics.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left" alt="cat feeder photo" src="../img/catFeeder-electronics.jpg" width="15%" /></a></p>
-<p>Modern cat owners have a problem when they need to <strong>leave their furry friends alone</strong> for longer than one day. </p>
-<p>In an attempt to create some <strong>interactiveness</strong> at home while we are away, at the same time as keeping a normal <strong>feeding frequency</strong>, we played around with developing an automated cat feeder.</p>
-<p>To spice things up, we decided to do a maker marathon over the weekend and see how far we could go in <strong>developing the idea in 2 days</strong>.</p>
-<h1 id="from-idea-to-prototype-in-one-weekend">From idea to prototype in one weekend</h1>
-<p>The challenge with this project was to develop and test its version zero in a <strong>real agile sprint</strong>. Was it possible to do it over one weekend?</p>
-<div class="video-wrapper">
-  <iframe width="350" height="315" align="right" src="https://www.youtube.com/embed/KFbf75e2ZVk?si=soJr6q0FGIhRgGVK&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-<p>We found out it was. By using <strong>simple electronics</strong> and soldering while the mechanics was printing, we started assembling on Saturday, with firsts tests on Sunday.</p>
-<p>Back then still new to 3d printing, we were astonished with the speed of the process: testing an idea in less than 48 hours from its conception was mind blowing!</p>
-<p>Some design choices that helped us going fast:</p>
+<h1 id="pipe-connectors-for-humanitarian-responses">Pipe connectors for humanitarian responses</h1>
+<p>During my tenure at the United Nations I met lots of interesting people, including the folks at <a href="https://www.fieldready.org/">Field Ready</a>.</p>
+<p>At the time running the second fablab for humanitarian responses, they had gotten known for the great first example in Haiti. In Port-au-Prince, a fast production, 3D printer powered fablab was able to <strong>solve logistics problems for provision of several critical items that saved many lives</strong>.</p>
+<p>For instance, they were able to <strong>print and recycle umbilical cord clips</strong>, which allowed to save many lives as those items did not get there in sufficient quantities after the earthquake.</p>
+<h1 id="can-you-print-this">Can you print this?</h1>
+<p>FieldReady had a challenge to <strong>design a pipe connector that could be 3d printed</strong>. The challenge here comes from the fact that 3d printers <strong>cannot print an overhang</strong> of more than around 30% without support structures. These supports create problems by increasing print time, reducing surface quality and requiring extra time to remove support structures.</p>
+<figure>
+<p><a class="glightbox" href="../img/design_challenge_fieldReady.PNG" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="challenge screenshot" src="../img/design_challenge_fieldReady.PNG" /></a>
+  </p>
+<figcaption>Video proposing the challenge to develop the connector</figcaption>
+</figure>
+<h2 id="the-solution">The solution</h2>
+<p><a class="glightbox" href="../img/design_fieldready.PNG" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left" alt="solution to design challenge" src="../img/design_fieldready.PNG" width="20%" /></a></p>
+<p>To solve this problem we <strong>engineered a fully 3d printable pipe connector</strong> that does not need supports. It prints at a bevel angle below that of most printers' capacities, making sure there is no need for support material.</p>
+<p>The solution is fully customizable via the open-source design software <a href="https://openscad.org/">openScad</a>. It is possible to define:</p>
 <ul>
-<li>Mechanics design had <strong>only 3 parts</strong>, one of which with more than 95% of the material - this reduced the amount of prints and setup required</li>
-<li>Electronics with Arduino and small <strong>protoboard</strong> (with dedicated space in the mechanics)</li>
-<li>Motion with a <strong>small servo</strong>, whose axis served as pivot for the sliding door, reducing mechanics complexity significantly. Plus, added simplicity by using standard <strong>servo libraries in Arduino</strong> ecosystem</li>
+<li>Entry and exit diameters</li>
+<li>Length</li>
+<li>Thickness</li>
+<li>Bevel angle (feature which makes the design 3d printable without supports)</li>
 </ul>
-<h1 id="an-extendable-platform">An extendable platform</h1>
-<p>With testing we identified that after getting acquainted to the device, which does take time depending on how easily scared the cat gets, they do tend to get <strong>very curious</strong> about it. It might be the noises, the smell or the movement, but cats do engage!</p>
-<p><a class="glightbox" href="../img/catFeeder-toni.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left" alt="cat and its feeder" src="../img/catFeeder-toni.jpg" width="40%" /></a></p>
-<p>On the next version we aim to develop more <strong>games and interactiveness</strong> as means to be in touch with the cats while we are away:</p>
-<ul>
-<li>Camera and voice</li>
-<li>Ability to throw elastics / paper balls</li>
-<li>Moving laser game</li>
-</ul>
-<p>Another feature that we identified as interesting is using a camera to identify which cat it is and allow <strong>selective feeding</strong>. It It can indeed be a problem when one cat outweights others and get most of their food.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gQShOV79NBE?si=Qls_GEvnf2_k8gV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>A link to the design, hosted in Thingiverse, can be found <a href="https://www.thingiverse.com/thing:1409472/files">here</a>.</p>
 
 
 
