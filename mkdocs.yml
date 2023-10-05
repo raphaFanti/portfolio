@@ -12,6 +12,9 @@ theme:
     logo: img/favicon.png
     features:
         - search.suggest
+    icon:
+        admonition:
+            note: material/test-tube
    
 plugins:
     - tags:
@@ -23,4 +26,7 @@ plugins:
 markdown_extensions:
     - attr_list
     - md_in_html
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
     

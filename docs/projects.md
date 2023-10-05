@@ -8,5 +8,4 @@
 - AI for headlamps -> feat
 - Boot sensing
 - Eigenfaces
-- FieldReady - printable connector
-- Suunto Pomocup connection
+- Dynamic vibration absorber
