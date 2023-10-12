@@ -6,6 +6,5 @@
 - CNC machine
 - Climbing business market analysis -> feat
 - AI for headlamps -> feat
-- Boot sensing
 - Eigenfaces
 - Dynamic vibration absorber

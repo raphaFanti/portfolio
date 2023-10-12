@@ -2,7 +2,7 @@
 ![raphael](img/profile.jpg){ align=left width="30%" }
 
 
-Raphael has been **in love with knowledge** from early age. An **Engineer by nature**, Raphael has an unavoidable **systemic look** at things and thinks oriented to solutions. He **doesn't want to stop learning** and sees in Data Science and Programming a way to continuously **update his knowledge**.
+Raphael has been **in love with knowledge** from early age. An **Engineer by nature**, Raphael has an unavoidable **systemic look** at things and thinks oriented to **solutions**. He **can't stop learning** and sees in Data Science and Programming a way to continuously **update his knowledge**.
 
 Besides technology Raphael interested in many topics, such as **economics,  sociology, ethnology and living simply**. He truly believes technology is a mean to **improving ecosystems, including human ones**; but at the same time creates potential dangers that need to be thought through.
 
@@ -37,5 +37,5 @@ Raphael has worked with **renowned institutions**, having had the luck to be **s
 
 <figure markdown>
   ![raphael is on the table](img/raphael_table.jpg)
-  <figcaption>Raphael happy as a child in Christmas after learning how to solder and soldering a table for his huge CNC machine during pandemics</figcaption>
+  <figcaption>Raphael happier than a child in Christmas after learning how to solder and soldering a table for his huge CNC machine during pandemics</figcaption>
 </figure>
