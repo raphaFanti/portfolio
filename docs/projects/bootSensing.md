@@ -12,7 +12,7 @@ tags:
 
 While working as a Digital Innovation Specialist, we mapped the need to have better information to design ski boots.
 
-The challenge is that boot design has organically arrived at some paradigms (e.g. the front lean applied by a skier maxes at around 100Kg of force), which had never been testes in real conditions in the past for lack of electronics means of acquiring such information. For instance, the cold conditions often seen in high altitude were a big challenge for batteries just a few years ago.
+The challenge is that boot design has organically arrived at some paradigms (e.g. the front lean applied by a skier maxes at around 100Kg of force), which had never been tested in real conditions in the past for lack of electronics means of acquiring such information. For instance, the cold conditions often seen in high altitude were a big challenge for batteries just a few years ago.
 
 We set out to develop miniaturized data acquisition electronics, as well as testing the limits of sensor fusioning by measuring forces in plastic boots via strain gages.
 
