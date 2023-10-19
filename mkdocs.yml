@@ -3,7 +3,8 @@ site_url: https://raphafanti.github.io/portfolio/
 
 nav:
   - Featured projects: index.md
-  - All projects: projects.md
+  - Projects by topic: projects.md
+  - Projects by date: index.md
   - About Raphael: about.md
 
 theme:

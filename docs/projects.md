@@ -1,2 +1,2 @@
-# Projects repository
+# Projects repository by topic
 [TAGS]
