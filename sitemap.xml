@@ -2,67 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://raphafanti.github.io/portfolio/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/about/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/blog/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://raphafanti.github.io/portfolio/projects/AI_patent_headlamps/</loc>
+         <lastmod>2023-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://raphafanti.github.io/portfolio/projects/CNC_machine/</loc>
+         <lastmod>2023-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://raphafanti.github.io/portfolio/projects/Climbing_market_analysis/</loc>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/IMsafe_sigfox_beacon/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/automatic_cat_feeder/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/belayCam/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/bootSensing/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://raphafanti.github.io/portfolio/projects/dynamic_vibration_absorber/</loc>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/iPlant%20connected%20garden/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/pipe_connector_challenge/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/strava_paragliding_classifier/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/suunto_pomocup_connection/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://raphafanti.github.io/portfolio/projects/</loc>
-         <lastmod>2023-10-12</lastmod>
+         <lastmod>2023-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
