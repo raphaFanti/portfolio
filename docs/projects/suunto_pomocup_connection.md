@@ -1,5 +1,5 @@
 ---
-title: Connecting a cadence tracker to Suunto watches
+title: Connecting a ski touring cadence tracker to Suunto watches
 date: 2018-10-30
 tags:
 - Electronics and embedded software
