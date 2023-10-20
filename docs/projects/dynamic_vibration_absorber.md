@@ -13,7 +13,7 @@ Right about the end of university I really felt in **love with vibrations**.
 
 The complexity of the **mathematical modeling** involved interested me right away, and alongside a group we developed a system that resembles the anti earthquake buildings.
 
-Added to the challenge and group work, this project allowed me to apply knowledge of another passion back then: airplane model building.
+Added to the challenge and group work, this project allowed me to apply knowledge of another passion back then: **airplane models** building.
 
 # A moving target
 
@@ -34,7 +34,7 @@ Our micro processor was programmed to, many times a second:
 * Command a **stepper motor** to take the mass to that height
 * **Adjust mass height** around that initial height by perceiving reminder vibration
 
-# A complex mechanical solution
+# Engineering students had it hard before 3D printers
 
 Besides the interesting mathematics and processing challenges in this project, I was particularly happy to apply knowledge I had from **model airplanes**. In this case, the small dimensions of the aluminum bar and the fact that is was vibrating, made it quite difficult to design a mechanism to move a mass around.
 
