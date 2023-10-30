@@ -4,7 +4,7 @@ site_url: https://raphafanti.github.io/portfolio/
 nav:
   - Featured projects: index.md
   - Projects by topic: projects.md
-  - Projects by date: index.md
+  - Blog: blog/index.md
   - About Raphael: about.md
 
 theme:
@@ -22,7 +22,7 @@ plugins:
         tags_file: projects.md
     - glightbox
     - search
-    
+    - blog
         
 markdown_extensions:
     - attr_list
