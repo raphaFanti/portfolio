@@ -16,16 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://raphafanti.github.io/portfolio/blog/</loc>
-         <lastmod>2024-04-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://raphafanti.github.io/portfolio/blog/2023/10/30/hello-world-this-is-my-first-portfolio/</loc>
-         <lastmod>2024-04-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://raphafanti.github.io/portfolio/projects/</loc>
          <lastmod>2024-04-18</lastmod>
          <changefreq>daily</changefreq>
@@ -96,17 +86,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://raphafanti.github.io/portfolio/projects/trash_app/</loc>
+         <lastmod>2024-04-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://raphafanti.github.io/portfolio/projects/webpage_traffic_classifier/</loc>
-         <lastmod>2024-04-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://raphafanti.github.io/portfolio/blog/archive/2023/</loc>
-         <lastmod>2024-04-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://raphafanti.github.io/portfolio/blog/category/webdev/</loc>
          <lastmod>2024-04-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
