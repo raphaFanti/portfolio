@@ -6,6 +6,29 @@ hide:
 
 !!! note ""
 
+    ![featured map](./projects/img/confirmation-page_trash-app.png){ align=left width="17%" }
+    ## A dirty job for LLMs
+    
+	Are LLMs a good solutiton to resolve recycling? In this project we make a fast prorotype of a computer vision and LLM solution to guide users about which bin to dispose reciclable waste based on a photo and their location
+
+	
+	#### #LLMs #ComputerVision #DataEngineering #ContanierDeployment
+	
+	[:octicons-arrow-right-24: learn more about this project](projects/trash_app.md)
+
+!!! note ""
+
+    ![recipes schema](./projects/img/recipes_schema.png){ align=left width="17%" }
+    ## What do Covid tests, customer churn rates and popular recipes have in common?
+    
+	Welcome to the world of binary classification: an old problem that is widely applicable to business problems. In this article we go through a journey of identifying good candidates for popular recipes on a website.
+	
+	#### #BinaryClassification #DataScienceForBusiness #LogisticsClassifier
+	
+	[:octicons-arrow-right-24: learn more about this project](projects/webpage_traffic_classifier.md)
+
+!!! note ""
+
     ![featured map](./projects/img/feat_map_showcase.png){ align=left width="17%" }
     ## Can machine learning predict the next hotspots for climbing gyms?
     
@@ -14,17 +37,6 @@ hide:
 	#### #WebScrapping #DataEngineering #EnsembleLearning
 	
 	[:octicons-arrow-right-24: learn more about this project](projects/Climbing_market_analysis.md)
-	
-!!! note ""
-
-	![featured cnc](./projects/img/feat_cnc.jpg){ align=left width="17%" }
-    ### Building a huge CNC machine during pandemics to realize a child's dream
-    
-	Lots of time and energy to spend: it was time to build the machine that got me interested in Engineering. Lots of fun building and learning new skills, such as welding.
-	
-	#### #Robotics #FastPrototyping #WoodWorking
-	
-	[:octicons-arrow-right-24: learn more about this project](projects/CNC_machine.md)
 
 !!! note ""
 

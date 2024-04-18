@@ -36,6 +36,5 @@ Raphael has worked with **renowned institutions**, having had the luck to be **s
 * Golden medal in **Brazilian Physics Olympics** for last year high school students
 
 <figure markdown>
-  ![raphael is on the table](img/raphael_table.jpg)
-  <figcaption>Raphael happier than a child in Christmas after learning how to solder and soldering a table for his huge CNC machine during pandemics</figcaption>
+  ![raphael is on the table](img/raphael_fanti_profile.png)
 </figure>
