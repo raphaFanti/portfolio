@@ -16,6 +16,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://raphafanti.github.io/portfolio/blog/</loc>
+         <lastmod>2024-04-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://raphafanti.github.io/portfolio/blog/posts/first_post/</loc>
+         <lastmod>2024-04-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://raphafanti.github.io/portfolio/projects/</loc>
          <lastmod>2024-04-18</lastmod>
          <changefreq>daily</changefreq>
